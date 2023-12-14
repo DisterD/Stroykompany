@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel='stylesheet' href='style.css'>
+    <link rel='stylesheet' href='style2.css'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tinos:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Строительная компания</title>
+</head>
+<body>
+
+<div class='header'>
+    <div class='container'>
+        <div class='header-line'>
+            <div class='header-logo'>
+                <img src="images/logo.png" alt="">
+            </div>
+
+            
+
+            <div class='nav'>
+              <a class='nav-item' href="index.html">ГЛАВНАЯ</a>
+              <a class='nav-item' href="about.html">О НАС</a>
+              <a class='nav-item' href="ourprojects.html">НАШИ ПРОЕКТЫ</a>
+              <a class='nav-item' href="contacts.html">КОНТАКТЫ</a>
+          </div>
+
+          <div class='cart'>
+              <a href="#">
+                 
+              </a>
+          </div>
+
+          <div class='phone'>
+              <div class='phone-holder'>
+                  <div class='phone-img'>
+                      <img src="images/phone.png" alt="">
+                  </div>
+
+                  <div class='number'><a class='num' href='#'>+999-888-76-54</a></div>
+              </div>
+
+              <div class='phone-text'>
+                  Свяжитесь с нами 
+              </div>
+          </div>
+
+          <div class='btn'>
+              <a class='button' href='contacts.html'>ОСТАВИТЬ ОТЗЫВ</a>
+          </div>
+          <div class='burger-menu'>
+
+            <button id='burger'>
+                <img src="images/burger-img.png" alt="">
+            </button>
+
+            <div id='menu' class='burger-slide disp'>
+                <a class='nav-item block' href="index.html">ГЛАВНАЯ</a>
+                <a class='nav-item block' href="about.html">О НАС</a>
+                <a class='nav-item block' href="ourprojects.html">НАШИ ПРОЕКТЫ</a>
+                <a class='nav-item block' href="contacts.html">КОНТАКТЫ</a>
+            </div>
+
+        </div>
+      </div>
+
+
+      <div class='header-down'>
+
+          <div class='header-title'>
+              Строительная компания <br> Контакты
+
+              <div class='header-subtitle'>
+                  
+              </div>
+
+             
+
+             
+          </div>
+
+      </div>
+
+  </div>
+
+</div>
+
+
+
+
+
+
+
+
+</main>
+
+
+
+
+
+
+
+
+<header class="page-header">ОСТАВЬТЕ ОТЗЫВ О СТРОИТЕЛЬНОЙ КОМПАНИИ</header>
+        <main>
+            <form action="/echo" method="post" oninput="daysoutput.value=dayscount.value">
+            <fieldset>
+                <legend>Личные данные</legend>
+                <div class="half-width">
+                    <label>ID отзыва</label>
+                    <input type="text" value="12345" disabled>
+                </div>
+                <div class="half-width">
+			        <label for="1">Имя</label>
+			        <input id="1" type="text" value="">
+		        </div>
+		    </fieldset>
+		    <fieldset>
+                <legend>Отзыв о компании</legend>
+			    <div class="half-width">
+			        <label for="2">Ваша страна</label>
+			     <input id="2" type="search" value="Норвегия">
+		         </div>
+			     <div class="half-width">
+			        <label for="3">Город</label>
+			        <select id="3">
+			            <option>Осло</option>
+			        </select>       
+			    </div>
+			    <div class="half-width">
+			    <label>Оценка </label>
+    			    0 <input type="range" min="0" max="10" step="1" name="dayscount" value="10"> 10
+    			</div>
+    			<div class="half-width output-area">
+    			      <output name="daysoutput">10</output>
+    			</div>
+    			<label for="4">Текст отзыва</label>
+    			<textarea id="4" rows="5">Напишите ваши ожидания и реальность.</textarea>
+            </fieldset>
+            <fieldset>
+    		    <legend>Наши Контакты</legend>
+			    <div class="half-width">
+			        <label for="5">Интернациональная 24</label>
+			        <input id="5" type="text" placeholder="Возле blackBerry" disabled>
+                </div>
+                <div class="half-width">
+			        <label for="6">Время работы</label>
+			        <input id="6" type="text" placeholder="00:00 - 24:00" disabled>
+                </div>
+                
+			    <label>Виды строительных работ</label>
+			    <select multiple>
+			        <option></option>
+			        <option>специальные</option>
+			        <option>общестроительные</option>
+			        <option>транспортные</option>
+			        <option>погрузочно-разгрузочные</option>
+			     </select>   
+            </fieldset>  
+        		<div class="buttons">
+        		    <input type="submit" value="Оценить">
+        		    <input type="reset" value="Сбросить">
+    			</div>
+		    </form> 
+        </main>
+        <footer class="page-footer"></footer>
+
+
+
+
+                <div class='footer'>
+                    Copyright 2023
+                </div>
+
+
+
+
+
+<script src='app.js'></script>
